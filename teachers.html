@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher Data</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="animated-section">
+    <nav
+      class="navbar navbar-dark navbar-expand-lg navbar-light"
+      style="
+        background-color: var(--dark-color-one);
+        border-bottom: 1px solid var(--primary-color-one);
+      "
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand mb-0 h1 logo"
+          >📖 Study<span class="logo-accent">Point</span>
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          area-expanded="false"
+          area-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-lg-flex justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#teacher_1" class="nav-link">Priya Yadav</a>
+            </li>
+            <li class="nav-item">
+              <a href="#teacher_2" class="nav-link">Priti Yadav</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CARDS -->
+    <div class="container">
+      <div class="row h-100">
+        <div class="col-sm-5 m-auto py-2 py-sm-5" id="teacher_1">
+          <div class="card">
+            <div class="card-body text-center">
+              <div class="profile-image image-fluid my-3 m-auto"></div>
+              <h5 class="card-title">Teacher name</h5>
+              <p class="card-text">Subject Specialist</p>
+              <p class="card-text">Education</p>
+              <p class="card-text">Age</p>
+              <p class="card-text">Experience</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5 m-auto py-2 py-sm-5" id="teacher_2">
+          <div class="card">
+            <div class="card-body text-center">
+              <div class="profile-image my-3 m-auto"></div>
+              <h5 class="card-title">Teacher name</h5>
+              <p class="card-text">Subject Specialist</p>
+              <p class="card-text">Education</p>
+              <p class="card-text">Age</p>
+              <p class="card-text">Experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //CARDS -->
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

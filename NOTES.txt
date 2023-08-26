@@ -1,0 +1,57 @@
+COLOR:  (light to dark)
+	rgb(249, 245, 246)
+	rgb(248, 232, 238)
+	rgb(253, 206, 223)
+	rgb(242, 190, 209)
+
+HOME: 
+	HEADER
+		- Nav Bar 
+			- profile's (different page)
+			- about us
+			- contact us
+			- outcome (students results) (different page)
+			- Reviews (different page)
+			- Fees (different page)
+
+	MAIN 
+		- QUOTE
+		- Breaf introduction 
+		- 
+	FOOTER
+
+Teacher's: 
+	Teacher's data 
+		- subject specialist 
+		- name 
+		- education 
+		- age 
+		- experience 
+
+About us: 
+	Info of tution #DATA#
+		- Description 
+			- Mission and Vision
+			- From class to class
+			- History and Background 
+			- No of students 
+			- Founders
+		- Address + maps 
+		- Contact Information
+		
+
+	
+Performance: 
+	Students marks etc..
+	
+Students Review: 
+	Students comments 
+	
+Parents Review: 
+	Parents comments
+	
+Contact us: 
+	email and mobile 
+
+Fees:
+	- fees of different student in different classes

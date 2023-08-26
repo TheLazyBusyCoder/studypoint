@@ -1,0 +1,136 @@
+:root {
+  --primary-color-one: rgb(255, 255, 255);
+  --primary-color-two: rgb(248, 232, 238);
+  --secondary-color: rgb(253, 206, 223);
+  --dark-color-one: rgb(242, 190, 209);
+  --dark-color-two: rgb(248, 124, 170);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link {
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--primary-color-one);
+  text-decoration: solid;
+  border-bottom: 1px solid var(--primary-color-one);
+}
+
+.navbar {
+  height: 15%;
+}
+
+.circle-top-left {
+  height: 200px;
+  width: 30vh;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  z-index: -1;
+  border-radius: 100% 10%;
+  background-color: var(--dark-color-one);
+  filter: blur(2px);
+}
+
+.home-section {
+  height: 90vh;
+  width: 100%;
+}
+
+.home-name {
+  border-bottom: 2px solid black;
+}
+
+#button1 {
+  color: var(--primary-color-one);
+  background-color: var(--dark-color-one);
+}
+
+.teachers-section {
+  background-color: var(--primary-color-one);
+}
+
+.profile-image {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border: 5px solid var(--dark-color-one);
+  border-radius: 100%;
+}
+
+.teacher-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus-section {
+  background-color: red;
+  height: 100vh;
+}
+
+.card {
+  box-shadow: black -10px 10px 30px 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateX(5px) translateY(-5px);
+}
+
+.aboutus-box {
+  /* box-shadow: black -5px 0px 20px 5px; */
+  transition: all 0.3s ease-in-out;
+  border: 2px solid var(--dark-color-one);
+  border-radius: 5px;
+}
+
+.aboutus-box:hover {
+  transform: translateX(+3px) translateY(-3px);
+}
+
+.heading {
+  color: var(--dark-color-one);
+}
+
+.color-dark {
+  color: var(--dark-color-one);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated-section {
+  opacity: 0; /* Start with opacity 0 to make it fade in */
+  animation: fadeIn 0.5s ease-in-out forwards; /* Apply the animation */
+}
+
+.logo {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--primary-color-one);
+}
+
+.text-center-vh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
